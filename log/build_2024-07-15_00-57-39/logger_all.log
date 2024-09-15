@@ -1,0 +1,937 @@
+[0.114s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.114s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78ee4894a650>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78ee48949c60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78ee48949c60>>, mixin_verb=('build',))
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.288s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/robotis_ws'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ros'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['cmake', 'python']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'cmake'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['python_setup_py']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python_setup_py'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel-workbench/dynamixel_workbench' with type 'ros.ament_cmake' and name 'dynamixel_workbench'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel-workbench/dynamixel_workbench_toolbox' with type 'ros.ament_cmake' and name 'dynamixel_workbench_toolbox'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'ros'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['cmake', 'python']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'cmake'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'python'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extensions ['python_setup_py']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator) by extension 'python_setup_py'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator/open_manipulator' with type 'ros.ament_cmake' and name 'open_manipulator'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_controller) by extension 'ros'
+[0.314s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator/open_manipulator_x_controller' with type 'ros.ament_cmake' and name 'open_manipulator_x_controller'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_description) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator/open_manipulator_x_description' with type 'ros.ament_cmake' and name 'open_manipulator_x_description'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_libs) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator/open_manipulator_x_libs' with type 'ros.ament_cmake' and name 'open_manipulator_x_libs'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator/open_manipulator_x_teleop) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator/open_manipulator_x_teleop' with type 'ros.ament_python' and name 'open_manipulator_x_teleop'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_dependencies/cmake_modules) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator_dependencies/cmake_modules' with type 'ros.ament_cmake' and name 'cmake_modules'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_manipulator_msgs) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_manipulator_msgs' with type 'ros.ament_cmake' and name 'open_manipulator_msgs'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotis_manipulator) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotis_manipulator' with type 'ros.ament_cmake' and name 'robotis_manipulator'
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.358s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/ubuntu/robotis_ws/install
+[0.361s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 390 installed packages in /opt/ros/humble
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.417s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'dynamixel_sdk' is in: /home/ubuntu/robotis_ws/install/dynamixel_sdk, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding dynamixel_sdk
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'cmake_target' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'cmake_clean_cache' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'cmake_clean_first' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'cmake_force_configure' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'ament_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'catkin_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'cmake_modules' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.418s] DEBUG:colcon.colcon_core.verb:Building package 'cmake_modules' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robotis_ws/build/cmake_modules', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robotis_ws/install/cmake_modules', 'merge_install': False, 'path': '/home/ubuntu/robotis_ws/src/open_manipulator_dependencies/cmake_modules', 'symlink_install': True, 'test_result_base': None}
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.419s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robotis_ws/build/dynamixel_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robotis_ws/install/dynamixel_sdk', 'merge_install': False, 'path': '/home/ubuntu/robotis_ws/src/DynamixelSDK/dynamixel_sdk', 'symlink_install': True, 'test_result_base': None}
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.420s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robotis_ws/build/dynamixel_sdk_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces', 'merge_install': False, 'path': '/home/ubuntu/robotis_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'cmake_target' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.420s] DEBUG:colcon.colcon_core.verb:Building package 'open_manipulator_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robotis_ws/build/open_manipulator_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robotis_ws/install/open_manipulator_msgs', 'merge_install': False, 'path': '/home/ubuntu/robotis_ws/src/open_manipulator_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_target' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.421s] DEBUG:colcon.colcon_core.verb:Building package 'open_manipulator_x_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robotis_ws/build/open_manipulator_x_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robotis_ws/install/open_manipulator_x_description', 'merge_install': False, 'path': '/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_description', 'symlink_install': True, 'test_result_base': None}
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.421s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.421s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robotis_ws/build/dynamixel_sdk_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples', 'merge_install': False, 'path': '/home/ubuntu/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples', 'symlink_install': True, 'test_result_base': None}
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_target' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_workbench_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robotis_ws/build/dynamixel_workbench_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox', 'merge_install': False, 'path': '/home/ubuntu/robotis_ws/src/dynamixel-workbench/dynamixel_workbench_toolbox', 'symlink_install': True, 'test_result_base': None}
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'cmake_target' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] DEBUG:colcon.colcon_core.verb:Building package 'open_manipulator_x_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robotis_ws/build/open_manipulator_x_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop', 'merge_install': False, 'path': '/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_teleop', 'symlink_install': True, 'test_result_base': None}
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'cmake_target' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'robotis_manipulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.423s] DEBUG:colcon.colcon_core.verb:Building package 'robotis_manipulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robotis_ws/build/robotis_manipulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robotis_ws/install/robotis_manipulator', 'merge_install': False, 'path': '/home/ubuntu/robotis_ws/src/robotis_manipulator', 'symlink_install': True, 'test_result_base': None}
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_args' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_target' from command line to 'None'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_clean_cache' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_clean_first' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'cmake_force_configure' from command line to 'False'
+[0.423s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.424s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_workbench' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robotis_ws/build/dynamixel_workbench', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robotis_ws/install/dynamixel_workbench', 'merge_install': False, 'path': '/home/ubuntu/robotis_ws/src/dynamixel-workbench/dynamixel_workbench', 'symlink_install': True, 'test_result_base': None}
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'cmake_clean_first' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'cmake_force_configure' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_libs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.424s] DEBUG:colcon.colcon_core.verb:Building package 'open_manipulator_x_libs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robotis_ws/build/open_manipulator_x_libs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs', 'merge_install': False, 'path': '/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_libs', 'symlink_install': True, 'test_result_base': None}
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'cmake_target' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator_x_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.425s] DEBUG:colcon.colcon_core.verb:Building package 'open_manipulator_x_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robotis_ws/build/open_manipulator_x_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robotis_ws/install/open_manipulator_x_controller', 'merge_install': False, 'path': '/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller', 'symlink_install': True, 'test_result_base': None}
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'cmake_target' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'open_manipulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.425s] DEBUG:colcon.colcon_core.verb:Building package 'open_manipulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/robotis_ws/build/open_manipulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/robotis_ws/install/open_manipulator', 'merge_install': False, 'path': '/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator', 'symlink_install': True, 'test_result_base': None}
+[0.425s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.426s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.427s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robotis_ws/src/DynamixelSDK/dynamixel_sdk' with build type 'ament_cmake'
+[0.427s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robotis_ws/src/DynamixelSDK/dynamixel_sdk'
+[0.430s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.430s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.430s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.434s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robotis_ws/src/open_manipulator_dependencies/cmake_modules' with build type 'ament_cmake'
+[0.435s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robotis_ws/src/open_manipulator_dependencies/cmake_modules'
+[0.435s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.435s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.439s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robotis_ws/src/open_manipulator_msgs' with build type 'ament_cmake'
+[0.439s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robotis_ws/src/open_manipulator_msgs'
+[0.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.444s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robotis_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with build type 'ament_cmake'
+[0.444s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robotis_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces'
+[0.444s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.444s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.450s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_description' with build type 'ament_cmake'
+[0.450s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_description'
+[0.451s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.451s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/dynamixel_sdk -- -j8 -l8
+[0.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/cmake_modules': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/cmake_modules -- -j8 -l8
+[0.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/open_manipulator_msgs -- -j8 -l8
+[0.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[0.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/open_manipulator_x_description -- -j8 -l8
+[0.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/cmake_modules' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/cmake_modules -- -j8 -l8
+[0.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/open_manipulator_x_description -- -j8 -l8
+[0.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/dynamixel_sdk -- -j8 -l8
+[0.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/cmake_modules': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/cmake_modules
+[0.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/open_manipulator_x_description
+[0.711s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmake_modules)
+[0.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/cmake_modules' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/cmake_modules
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/cmake_modules' for CMake module files
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/cmake_modules' for CMake config files
+[0.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmake_modules', 'cmake_prefix_path')
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/cmake_modules/share/cmake_modules/hook/cmake_prefix_path.ps1'
+[0.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/cmake_modules/share/cmake_modules/hook/cmake_prefix_path.dsv'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/cmake_modules/share/cmake_modules/hook/cmake_prefix_path.sh'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/cmake_modules/bin'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/cmake_modules/lib/pkgconfig/cmake_modules.pc'
+[0.729s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/cmake_modules/lib/python3.10/site-packages'
+[0.729s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/cmake_modules/bin'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/cmake_modules/share/cmake_modules/package.ps1'
+[0.730s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/cmake_modules/share/cmake_modules/package.dsv'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/cmake_modules/share/cmake_modules/package.sh'
+[0.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/cmake_modules/share/cmake_modules/package.bash'
+[0.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/cmake_modules/share/cmake_modules/package.zsh'
+[0.736s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/cmake_modules/share/colcon-core/packages/cmake_modules)
+[0.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_x_description)
+[0.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/open_manipulator_x_description
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_description' for CMake module files
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_description' for CMake config files
+[0.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_description', 'cmake_prefix_path')
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.ps1'
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.dsv'
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.sh'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/bin'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/lib/pkgconfig/open_manipulator_x_description.pc'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/lib/python3.10/site-packages'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/bin'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.ps1'
+[0.750s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.dsv'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.sh'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.bash'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.zsh'
+[0.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/colcon-core/packages/open_manipulator_x_description)
+[0.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/dynamixel_sdk
+[0.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmake_modules)
+[0.779s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/cmake_modules' for CMake module files
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/cmake_modules' for CMake config files
+[0.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmake_modules', 'cmake_prefix_path')
+[0.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/cmake_modules/share/cmake_modules/hook/cmake_prefix_path.ps1'
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/cmake_modules/share/cmake_modules/hook/cmake_prefix_path.dsv'
+[0.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/cmake_modules/share/cmake_modules/hook/cmake_prefix_path.sh'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/cmake_modules/bin'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/cmake_modules/lib/pkgconfig/cmake_modules.pc'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/cmake_modules/lib/python3.10/site-packages'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/cmake_modules/bin'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/cmake_modules/share/cmake_modules/package.ps1'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/cmake_modules/share/cmake_modules/package.dsv'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/cmake_modules/share/cmake_modules/package.sh'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/cmake_modules/share/cmake_modules/package.bash'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/cmake_modules/share/cmake_modules/package.zsh'
+[0.802s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/cmake_modules/share/colcon-core/packages/cmake_modules)
+[0.803s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robotis_ws/src/robotis_manipulator' with build type 'ament_cmake'
+[0.803s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robotis_ws/src/robotis_manipulator'
+[0.804s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.804s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_x_description)
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_description' for CMake module files
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_description' for CMake config files
+[0.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_description', 'cmake_prefix_path')
+[0.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.ps1'
+[0.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.dsv'
+[0.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/hook/cmake_prefix_path.sh'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/bin'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/lib/pkgconfig/open_manipulator_x_description.pc'
+[0.822s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/lib/python3.10/site-packages'
+[0.823s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/bin'
+[0.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.ps1'
+[0.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.dsv'
+[0.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.sh'
+[0.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.bash'
+[0.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/open_manipulator_x_description/package.zsh'
+[0.825s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/open_manipulator_x_description/share/colcon-core/packages/open_manipulator_x_description)
+[0.827s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[0.828s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk' for CMake module files
+[0.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/dynamixel_sdk
+[0.830s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk' for CMake config files
+[0.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[0.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[0.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[0.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[0.834s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib'
+[0.834s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[0.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[0.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk/bin'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib/python3.10/site-packages'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk/bin'
+[0.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[0.840s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[0.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[0.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/robotis_manipulator': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/robotis_manipulator -- -j8 -l8
+[0.947s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk' for CMake module files
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk' for CMake config files
+[0.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[0.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[0.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[0.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[0.952s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib'
+[0.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[0.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[0.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[0.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[0.953s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk/bin'
+[0.953s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib/python3.10/site-packages'
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk/bin'
+[0.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[0.955s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[0.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[0.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[0.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[0.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[0.957s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robotis_ws/src/dynamixel-workbench/dynamixel_workbench_toolbox' with build type 'ament_cmake'
+[0.957s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robotis_ws/src/dynamixel-workbench/dynamixel_workbench_toolbox'
+[0.957s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.957s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/dynamixel_workbench_toolbox': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/dynamixel_workbench_toolbox -- -j8 -l8
+[0.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/robotis_manipulator' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/robotis_manipulator -- -j8 -l8
+[1.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/robotis_manipulator': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/robotis_manipulator
+[1.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/dynamixel_workbench_toolbox' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/dynamixel_workbench_toolbox -- -j8 -l8
+[1.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotis_manipulator)
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/robotis_manipulator' for CMake module files
+[1.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/robotis_manipulator' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/robotis_manipulator
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/robotis_manipulator' for CMake config files
+[1.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotis_manipulator', 'cmake_prefix_path')
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/hook/cmake_prefix_path.ps1'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/hook/cmake_prefix_path.dsv'
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/hook/cmake_prefix_path.sh'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/robotis_manipulator/lib'
+[1.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotis_manipulator', 'ld_library_path_lib')
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/hook/ld_library_path_lib.ps1'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/hook/ld_library_path_lib.dsv'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/hook/ld_library_path_lib.sh'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/robotis_manipulator/bin'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/robotis_manipulator/lib/pkgconfig/robotis_manipulator.pc'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/robotis_manipulator/lib/python3.10/site-packages'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/robotis_manipulator/bin'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/package.ps1'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/package.dsv'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/package.sh'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/package.bash'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/package.zsh'
+[1.091s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/robotis_manipulator/share/colcon-core/packages/robotis_manipulator)
+[1.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/dynamixel_workbench_toolbox': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/dynamixel_workbench_toolbox
+[1.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotis_manipulator)
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/robotis_manipulator' for CMake module files
+[1.156s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/robotis_manipulator' for CMake config files
+[1.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotis_manipulator', 'cmake_prefix_path')
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/hook/cmake_prefix_path.ps1'
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/hook/cmake_prefix_path.dsv'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/hook/cmake_prefix_path.sh'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/robotis_manipulator/lib'
+[1.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotis_manipulator', 'ld_library_path_lib')
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/hook/ld_library_path_lib.ps1'
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/hook/ld_library_path_lib.dsv'
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/hook/ld_library_path_lib.sh'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/robotis_manipulator/bin'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/robotis_manipulator/lib/pkgconfig/robotis_manipulator.pc'
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/robotis_manipulator/lib/python3.10/site-packages'
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/robotis_manipulator/bin'
+[1.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/package.ps1'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/package.dsv'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/package.sh'
+[1.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/package.bash'
+[1.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/package.zsh'
+[1.169s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/robotis_manipulator/share/colcon-core/packages/robotis_manipulator)
+[1.171s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench_toolbox)
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox' for CMake module files
+[1.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/dynamixel_workbench_toolbox' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/dynamixel_workbench_toolbox
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox' for CMake config files
+[1.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_toolbox', 'cmake_prefix_path')
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.ps1'
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.dsv'
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.sh'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib'
+[1.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_toolbox', 'ld_library_path_lib')
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.ps1'
+[1.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.dsv'
+[1.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.sh'
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/bin'
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib/pkgconfig/dynamixel_workbench_toolbox.pc'
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib/python3.10/site-packages'
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/bin'
+[1.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.ps1'
+[1.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.dsv'
+[1.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.sh'
+[1.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.bash'
+[1.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.zsh'
+[1.184s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/colcon-core/packages/dynamixel_workbench_toolbox)
+[1.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[1.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/open_manipulator_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/open_manipulator_msgs -- -j8 -l8
+[1.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench_toolbox)
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox' for CMake module files
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox' for CMake config files
+[1.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_toolbox', 'cmake_prefix_path')
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.ps1'
+[1.238s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.dsv'
+[1.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/cmake_prefix_path.sh'
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib'
+[1.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_toolbox', 'ld_library_path_lib')
+[1.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.ps1'
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.dsv'
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/hook/ld_library_path_lib.sh'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/bin'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib/pkgconfig/dynamixel_workbench_toolbox.pc'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib/python3.10/site-packages'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/bin'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.ps1'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.dsv'
+[1.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.sh'
+[1.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.bash'
+[1.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/package.zsh'
+[1.244s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/share/colcon-core/packages/dynamixel_workbench_toolbox)
+[1.244s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_libs' with build type 'ament_cmake'
+[1.245s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_libs'
+[1.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.254s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robotis_ws/src/dynamixel-workbench/dynamixel_workbench' with build type 'ament_cmake'
+[1.254s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robotis_ws/src/dynamixel-workbench/dynamixel_workbench'
+[1.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_libs': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/robotis_manipulator/lib:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/open_manipulator_x_libs -- -j8 -l8
+[1.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/dynamixel_workbench': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/dynamixel_workbench -- -j8 -l8
+[1.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/dynamixel_sdk_custom_interfaces
+[1.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/dynamixel_workbench' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/dynamixel_workbench -- -j8 -l8
+[1.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/dynamixel_workbench': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/dynamixel_workbench
+[1.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_libs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/robotis_manipulator/lib:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/open_manipulator_x_libs -- -j8 -l8
+[1.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench)
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench' for CMake module files
+[1.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/dynamixel_workbench' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/dynamixel_workbench
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench' for CMake config files
+[1.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench', 'cmake_prefix_path')
+[1.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.ps1'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.dsv'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.sh'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench/bin'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench/lib/pkgconfig/dynamixel_workbench.pc'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench/lib/python3.10/site-packages'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench/bin'
+[1.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.ps1'
+[1.412s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.dsv'
+[1.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.sh'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.bash'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.zsh'
+[1.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/colcon-core/packages/dynamixel_workbench)
+[1.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_libs': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/robotis_manipulator/lib:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/open_manipulator_x_libs
+[1.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[1.442s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[1.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/dynamixel_sdk_custom_interfaces
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[1.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[1.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[1.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[1.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[1.448s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib'
+[1.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.10/site-packages'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[1.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[1.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[1.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[1.458s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench)
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench' for CMake module files
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench' for CMake config files
+[1.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench', 'cmake_prefix_path')
+[1.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.ps1'
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.dsv'
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/hook/cmake_prefix_path.sh'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench/bin'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench/lib/pkgconfig/dynamixel_workbench.pc'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench/lib/python3.10/site-packages'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_workbench/bin'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.ps1'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.dsv'
+[1.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.sh'
+[1.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.bash'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.zsh'
+[1.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/colcon-core/packages/dynamixel_workbench)
+[1.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_x_libs)
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs' for CMake module files
+[1.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_libs' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/robotis_manipulator/lib:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/open_manipulator_x_libs
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs' for CMake config files
+[1.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_libs', 'cmake_prefix_path')
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/cmake_prefix_path.ps1'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/cmake_prefix_path.dsv'
+[1.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/cmake_prefix_path.sh'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/lib'
+[1.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_libs', 'ld_library_path_lib')
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/ld_library_path_lib.ps1'
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/ld_library_path_lib.dsv'
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/ld_library_path_lib.sh'
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/bin'
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/lib/pkgconfig/open_manipulator_x_libs.pc'
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/lib/python3.10/site-packages'
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/bin'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.ps1'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.dsv'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.sh'
+[1.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.bash'
+[1.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.zsh'
+[1.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/colcon-core/packages/open_manipulator_x_libs)
+[1.529s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_x_libs)
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs' for CMake module files
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs' for CMake config files
+[1.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_libs', 'cmake_prefix_path')
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/cmake_prefix_path.ps1'
+[1.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/cmake_prefix_path.dsv'
+[1.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/cmake_prefix_path.sh'
+[1.532s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/lib'
+[1.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_libs', 'ld_library_path_lib')
+[1.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/ld_library_path_lib.ps1'
+[1.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/ld_library_path_lib.dsv'
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/hook/ld_library_path_lib.sh'
+[1.533s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/bin'
+[1.533s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/lib/pkgconfig/open_manipulator_x_libs.pc'
+[1.533s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/lib/python3.10/site-packages'
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/bin'
+[1.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.ps1'
+[1.535s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.dsv'
+[1.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.sh'
+[1.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.bash'
+[1.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.zsh'
+[1.536s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/colcon-core/packages/open_manipulator_x_libs)
+[1.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/open_manipulator_msgs
+[1.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[1.580s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[1.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[1.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[1.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[1.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[1.585s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib'
+[1.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[1.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[1.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.10/site-packages'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[1.591s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[1.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[1.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[1.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[1.595s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[1.595s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples' with build type 'ament_cmake'
+[1.595s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples'
+[1.596s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.596s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/dynamixel_sdk_examples -- -j8 -l8
+[1.680s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_msgs)
+[1.681s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_msgs' for CMake module files
+[1.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/open_manipulator_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/open_manipulator_msgs
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_msgs' for CMake config files
+[1.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_msgs', 'cmake_prefix_path')
+[1.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/cmake_prefix_path.ps1'
+[1.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/cmake_prefix_path.dsv'
+[1.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/cmake_prefix_path.sh'
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib'
+[1.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_msgs', 'ld_library_path_lib')
+[1.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/ld_library_path_lib.ps1'
+[1.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/ld_library_path_lib.dsv'
+[1.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/ld_library_path_lib.sh'
+[1.686s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/bin'
+[1.687s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib/pkgconfig/open_manipulator_msgs.pc'
+[1.687s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib/python3.10/site-packages'
+[1.687s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/bin'
+[1.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/package.ps1'
+[1.688s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/package.dsv'
+[1.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/package.sh'
+[1.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/package.bash'
+[1.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/package.zsh'
+[1.690s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/colcon-core/packages/open_manipulator_msgs)
+[1.715s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/dynamixel_sdk_examples -- -j8 -l8
+[1.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/dynamixel_sdk_examples
+[1.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[1.785s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples' for CMake module files
+[1.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/dynamixel_sdk_examples
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples' for CMake config files
+[1.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[1.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[1.788s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/lib'
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/bin'
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/lib/python3.10/site-packages'
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/bin'
+[1.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[1.791s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[1.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[1.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[1.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[1.793s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[1.827s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[1.828s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples' for CMake module files
+[1.828s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples' for CMake config files
+[1.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[1.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[1.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[1.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/lib'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/bin'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/lib/python3.10/site-packages'
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/bin'
+[1.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[1.832s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[1.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[1.834s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[2.009s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_msgs)
+[2.010s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_msgs' for CMake module files
+[2.011s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_msgs' for CMake config files
+[2.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_msgs', 'cmake_prefix_path')
+[2.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/cmake_prefix_path.ps1'
+[2.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/cmake_prefix_path.dsv'
+[2.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/cmake_prefix_path.sh'
+[2.013s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib'
+[2.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_msgs', 'ld_library_path_lib')
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/ld_library_path_lib.ps1'
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/ld_library_path_lib.dsv'
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/hook/ld_library_path_lib.sh'
+[2.014s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/bin'
+[2.014s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib/pkgconfig/open_manipulator_msgs.pc'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib/python3.10/site-packages'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/bin'
+[2.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/package.ps1'
+[2.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/package.dsv'
+[2.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/package.sh'
+[2.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/package.bash'
+[2.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/package.zsh'
+[2.018s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/colcon-core/packages/open_manipulator_msgs)
+[2.018s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_teleop' with build type 'ament_python'
+[2.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_teleop', 'ament_prefix_path')
+[2.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/hook/ament_prefix_path.ps1'
+[2.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/hook/ament_prefix_path.dsv'
+[2.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/hook/ament_prefix_path.sh'
+[2.020s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.020s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.025s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller' with build type 'ament_cmake'
+[2.025s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller'
+[2.025s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.025s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.316s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_teleop'
+[2.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_controller': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs:/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/open_manipulator_msgs:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs:/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/open_manipulator_msgs:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/lib:/home/ubuntu/robotis_ws/install/robotis_manipulator/lib:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/open_manipulator_x_controller -- -j8 -l8
+[2.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_teleop': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robotis_ws/build/open_manipulator_x_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/lib/python3.10/site-packages:/home/ubuntu/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/robotis_ws/build/open_manipulator_x_teleop/build --no-deps symlink_data
+[3.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_teleop', 'pythonpath_develop')
+[3.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/build/open_manipulator_x_teleop/share/open_manipulator_x_teleop/hook/pythonpath_develop.ps1'
+[3.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_teleop' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robotis_ws/build/open_manipulator_x_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/lib/python3.10/site-packages:/home/ubuntu/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/robotis_ws/build/open_manipulator_x_teleop/build --no-deps symlink_data
+[3.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/build/open_manipulator_x_teleop/share/open_manipulator_x_teleop/hook/pythonpath_develop.dsv'
+[3.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/build/open_manipulator_x_teleop/share/open_manipulator_x_teleop/hook/pythonpath_develop.sh'
+[3.313s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop' for CMake module files
+[3.314s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop' for CMake config files
+[3.314s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/lib'
+[3.314s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/bin'
+[3.314s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/lib/pkgconfig/open_manipulator_x_teleop.pc'
+[3.315s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/lib/python3.10/site-packages'
+[3.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_manipulator_x_teleop', 'pythonpath')
+[3.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/hook/pythonpath.ps1'
+[3.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/hook/pythonpath.dsv'
+[3.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/hook/pythonpath.sh'
+[3.316s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/bin'
+[3.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_x_teleop)
+[3.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.ps1'
+[3.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.dsv'
+[3.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.sh'
+[3.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.bash'
+[3.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.zsh'
+[3.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/share/colcon-core/packages/open_manipulator_x_teleop)
+[10.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_controller' returned '2': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs:/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/open_manipulator_msgs:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs:/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/open_manipulator_msgs:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/lib:/home/ubuntu/robotis_ws/install/robotis_manipulator/lib:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/open_manipulator_x_controller -- -j8 -l8
+[10.891s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_manipulator_x_controller)
+[10.892s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_controller' for CMake module files
+[10.892s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_controller' for CMake config files
+[10.892s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_controller/bin'
+[10.893s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_controller/lib/pkgconfig/open_manipulator_x_controller.pc'
+[10.893s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_controller/lib/python3.10/site-packages'
+[10.893s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/robotis_ws/install/open_manipulator_x_controller/bin'
+[10.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_controller/share/open_manipulator_x_controller/package.ps1'
+[10.894s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/robotis_ws/install/open_manipulator_x_controller/share/open_manipulator_x_controller/package.dsv'
+[10.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_controller/share/open_manipulator_x_controller/package.sh'
+[10.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_controller/share/open_manipulator_x_controller/package.bash'
+[10.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/robotis_ws/install/open_manipulator_x_controller/share/open_manipulator_x_controller/package.zsh'
+[10.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/robotis_ws/install/open_manipulator_x_controller/share/colcon-core/packages/open_manipulator_x_controller)
+[10.906s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.907s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.907s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[10.907s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.918s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.918s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.918s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.940s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.941s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robotis_ws/install/local_setup.ps1'
+[10.943s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/robotis_ws/install/_local_setup_util_ps1.py'
+[10.944s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robotis_ws/install/setup.ps1'
+[10.946s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robotis_ws/install/local_setup.sh'
+[10.947s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/robotis_ws/install/_local_setup_util_sh.py'
+[10.947s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robotis_ws/install/setup.sh'
+[10.949s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robotis_ws/install/local_setup.bash'
+[10.949s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robotis_ws/install/setup.bash'
+[10.951s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/robotis_ws/install/local_setup.zsh'
+[10.952s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/robotis_ws/install/setup.zsh'

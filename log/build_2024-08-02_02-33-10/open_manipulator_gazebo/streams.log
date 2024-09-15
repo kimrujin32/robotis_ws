@@ -1,0 +1,32 @@
+[0.049s] Invoking command in '/home/ubuntu/robotis_ws/build/open_manipulator_gazebo': /usr/bin/cmake /home/ubuntu/robotis_ws/src/open_manipulator_simulations/open_manipulator_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotis_ws/install/open_manipulator_gazebo
+[0.270s] -- The C compiler identification is GNU 11.4.0
+[0.528s] -- The CXX compiler identification is GNU 11.4.0
+[0.537s] -- Detecting C compiler ABI info
+[0.655s] -- Detecting C compiler ABI info - done
+[0.673s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.674s] -- Detecting C compile features
+[0.675s] -- Detecting C compile features - done
+[0.679s] -- Detecting CXX compiler ABI info
+[0.802s] -- Detecting CXX compiler ABI info - done
+[0.814s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.814s] -- Detecting CXX compile features
+[0.815s] -- Detecting CXX compile features - done
+[0.834s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.834s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.834s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.834s]   CMake did not find one.
+[0.834s] 
+[0.834s]   Could not find a package configuration file provided by "catkin" with any
+[0.834s]   of the following names:
+[0.834s] 
+[0.834s]     catkinConfig.cmake
+[0.835s]     catkin-config.cmake
+[0.835s] 
+[0.835s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.835s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.835s]   provides a separate development package or SDK, be sure it has been
+[0.835s]   installed.
+[0.835s] 
+[0.835s] [0m
+[0.835s] -- Configuring incomplete, errors occurred!
+[0.835s] See also "/home/ubuntu/robotis_ws/build/open_manipulator_gazebo/CMakeFiles/CMakeOutput.log".

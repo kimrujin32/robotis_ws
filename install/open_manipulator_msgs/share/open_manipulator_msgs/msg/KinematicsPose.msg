@@ -1,0 +1,1 @@
+/home/ubuntu/robotis_ws/src/open_manipulator_msgs/msg/KinematicsPose.msg

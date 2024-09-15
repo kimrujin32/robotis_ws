@@ -1,0 +1,64 @@
+[01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:[m[K In member function ‘[01m[Kvoid open_manipulator_x_controller::OpenManipulatorXController::init_parameters()[m[K’:
+[01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:66:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kboolean[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   66 |   this->declare_parameter<std::[01;31m[Kboolean[m[K>("sim"); //rujin
+      |                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:66:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kopen_manipulator_x_controller::OpenManipulatorXController::declare_parameter<<expression error> >(const char [4])[m[K’
+   66 |   [01;31m[Kthis->declare_parameter<std::boolean>("sim")[m[K; //rujin
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/include/open_manipulator_x_controller/open_manipulator_x_controller.hpp:27[m[K,
+                 from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:17[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+  421 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:66:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   66 |   [01;31m[Kthis->declare_parameter<std::boolean>("sim")[m[K; //rujin
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/include/open_manipulator_x_controller/open_manipulator_x_controller.hpp:27[m[K,
+                 from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:17[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+  434 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:66:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   66 |   [01;31m[Kthis->declare_parameter<std::boolean>("sim")[m[K; //rujin
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:67:9:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   67 |   this->[01;31m[Kdeclare_parameter<std::double>[m[K("control_period"); //rujin
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:67:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kopen_manipulator_x_controller::OpenManipulatorXController::declare_parameter<<expression error> >(const char [15])[m[K’
+   67 |   [01;31m[Kthis->declare_parameter<std::double>("control_period")[m[K; //rujin
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/include/open_manipulator_x_controller/open_manipulator_x_controller.hpp:27[m[K,
+                 from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:17[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+  421 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:67:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   67 |   [01;31m[Kthis->declare_parameter<std::double>("control_period")[m[K; //rujin
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/include/open_manipulator_x_controller/open_manipulator_x_controller.hpp:27[m[K,
+                 from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:17[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+  434 |   [01;36m[Kdeclare_parameter[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:67:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   67 |   [01;31m[Kthis->declare_parameter<std::double>("control_period")[m[K; //rujin
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/open_manipulator_x_controller.dir/build.make:76: CMakeFiles/open_manipulator_x_controller.dir/src/open_manipulator_x_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/open_manipulator_x_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

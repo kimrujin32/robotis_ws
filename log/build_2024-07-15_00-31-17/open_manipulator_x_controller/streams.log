@@ -1,0 +1,131 @@
+[0.026s] Invoking command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_controller': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs:/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/open_manipulator_msgs:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs:/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/open_manipulator_msgs:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/lib:/home/ubuntu/robotis_ws/install/robotis_manipulator/lib:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotis_ws/install/open_manipulator_x_controller
+[0.101s] -- The C compiler identification is GNU 11.4.0
+[0.175s] -- The CXX compiler identification is GNU 11.4.0
+[0.184s] -- Detecting C compiler ABI info
+[0.270s] -- Detecting C compiler ABI info - done
+[0.279s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.279s] -- Detecting C compile features
+[0.280s] -- Detecting C compile features - done
+[0.283s] -- Detecting CXX compiler ABI info
+[0.388s] -- Detecting CXX compiler ABI info - done
+[0.397s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.397s] -- Detecting CXX compile features
+[0.398s] -- Detecting CXX compile features - done
+[0.402s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.604s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.671s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.718s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.771s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.778s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.789s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.806s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.830s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.966s] -- Found open_manipulator_msgs: 2.2.0 (/home/ubuntu/robotis_ws/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake)
+[1.051s] -- Found open_manipulator_x_libs: 2.3.0 (/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/share/open_manipulator_x_libs/cmake)
+[1.140s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.144s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.266s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.300s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.356s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.370s] -- Looking for pthread.h
+[1.463s] -- Looking for pthread.h - found
+[1.463s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.564s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.565s] -- Found Threads: TRUE  
+[1.754s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.857s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[2.057s] -- Configuring done
+[2.091s] -- Generating done
+[2.093s] -- Build files have been written to: /home/ubuntu/robotis_ws/build/open_manipulator_x_controller
+[2.103s] Invoked command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_controller' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs:/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/open_manipulator_msgs:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs:/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/open_manipulator_msgs:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/lib:/home/ubuntu/robotis_ws/install/robotis_manipulator/lib:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotis_ws/install/open_manipulator_x_controller
+[2.105s] Invoking command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_controller': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs:/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/open_manipulator_msgs:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs:/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/open_manipulator_msgs:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/lib:/home/ubuntu/robotis_ws/install/robotis_manipulator/lib:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/open_manipulator_x_controller -- -j8 -l8
+[2.179s] [ 50%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_controller.dir/src/open_manipulator_x_controller.cpp.o[0m
+[6.497s] [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:[m[K In member function ‘[01m[Kvoid open_manipulator_x_controller::OpenManipulatorXController::init_parameters()[m[K’:
+[6.497s] [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:66:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kopen_manipulator_x_controller::OpenManipulatorXController::declare_parameter(const char [4])[m[K’
+[6.497s]    66 |   [01;31m[Kthis->declare_parameter("sim")[m[K;
+[6.497s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.498s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.498s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.498s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.498s]                  from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/include/open_manipulator_x_controller/open_manipulator_x_controller.hpp:27[m[K,
+[6.498s]                  from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:17[m[K:
+[6.498s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[6.498s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[6.498s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.499s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.499s] [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:66:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.499s]    66 |   [01;36m[Kthis->declare_parameter("sim")[m[K;
+[6.499s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.499s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.499s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.499s]                  from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/include/open_manipulator_x_controller/open_manipulator_x_controller.hpp:27[m[K,
+[6.499s]                  from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:17[m[K:
+[6.499s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[6.500s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[6.500s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.500s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.500s] [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:66:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[6.500s]    66 |   [01;36m[Kthis->declare_parameter("sim")[m[K;
+[6.500s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.500s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.500s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.500s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.501s]                  from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/include/open_manipulator_x_controller/open_manipulator_x_controller.hpp:27[m[K,
+[6.501s]                  from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:17[m[K:
+[6.501s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[6.501s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[6.501s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.501s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.501s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[6.501s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[6.501s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.502s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.502s] [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:67:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kopen_manipulator_x_controller::OpenManipulatorXController::declare_parameter(const char [15])[m[K’
+[6.502s]    67 |   [01;31m[Kthis->declare_parameter("control_period")[m[K;
+[6.502s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[6.502s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.502s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.502s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.502s]                  from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/include/open_manipulator_x_controller/open_manipulator_x_controller.hpp:27[m[K,
+[6.502s]                  from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:17[m[K:
+[6.502s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[6.503s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[6.503s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.503s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.503s] [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:67:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.503s]    67 |   [01;36m[Kthis->declare_parameter("control_period")[m[K;
+[6.503s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[6.503s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.503s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.503s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.503s]                  from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/include/open_manipulator_x_controller/open_manipulator_x_controller.hpp:27[m[K,
+[6.503s]                  from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:17[m[K:
+[6.503s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[6.503s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[6.503s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.503s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.504s] [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:67:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[6.504s]    67 |   [01;36m[Kthis->declare_parameter("control_period")[m[K;
+[6.504s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[6.504s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.504s]                  from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/include/open_manipulator_x_controller/open_manipulator_x_controller.hpp:27[m[K,
+[6.504s]                  from [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:17[m[K:
+[6.504s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[6.504s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[6.504s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.504s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.504s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[6.504s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[6.504s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.505s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[6.506s] [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:[m[K In member function ‘[01m[Kvoid open_manipulator_x_controller::OpenManipulatorXController::init_publisher()[m[K’:
+[6.507s] [01m[K/home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:103:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kname[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.507s]   103 |   for (auto const & [01;35m[Kname[m[K:tools_name)
+[6.507s]       |                     [01;35m[K^~~~[m[K
+[11.380s] gmake[2]: *** [CMakeFiles/open_manipulator_x_controller.dir/build.make:76: CMakeFiles/open_manipulator_x_controller.dir/src/open_manipulator_x_controller.cpp.o] Error 1
+[11.380s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/open_manipulator_x_controller.dir/all] Error 2
+[11.380s] gmake: *** [Makefile:146: all] Error 2
+[11.383s] Invoked command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_controller' returned '2': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs:/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/open_manipulator_msgs:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs:/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/open_manipulator_msgs:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_x_libs/lib:/home/ubuntu/robotis_ws/install/robotis_manipulator/lib:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/open_manipulator_x_controller -- -j8 -l8

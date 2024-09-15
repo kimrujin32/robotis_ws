@@ -1,0 +1,15 @@
+/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench
+/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench
+/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/environment/ament_prefix_path.sh
+/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/environment/ament_prefix_path.dsv
+/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/environment/path.sh
+/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/environment/path.dsv
+/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/local_setup.bash
+/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/local_setup.sh
+/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/local_setup.zsh
+/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/local_setup.dsv
+/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.dsv
+/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/ament_index/resource_index/packages/dynamixel_workbench
+/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/cmake/dynamixel_workbenchConfig.cmake
+/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/cmake/dynamixel_workbenchConfig-version.cmake
+/home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.xml

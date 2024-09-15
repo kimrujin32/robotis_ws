@@ -1,0 +1,33 @@
+[0.050s] Invoking command in '/home/ubuntu/robotis_ws/build/open_manipulator_gazebo': /usr/bin/cmake /home/ubuntu/robotis_ws/src/open_manipulator_simulations/open_manipulator_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotis_ws/install/open_manipulator_gazebo
+[0.369s] -- The C compiler identification is GNU 11.4.0
+[0.606s] -- The CXX compiler identification is GNU 11.4.0
+[0.628s] -- Detecting C compiler ABI info
+[0.797s] -- Detecting C compiler ABI info - done
+[0.822s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.822s] -- Detecting C compile features
+[0.822s] -- Detecting C compile features - done
+[0.830s] -- Detecting CXX compiler ABI info
+[1.021s] -- Detecting CXX compiler ABI info - done
+[1.045s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.045s] -- Detecting CXX compile features
+[1.046s] -- Detecting CXX compile features - done
+[1.079s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[1.080s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.082s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.082s]   CMake did not find one.
+[1.083s] 
+[1.083s]   Could not find a package configuration file provided by "catkin" with any
+[1.083s]   of the following names:
+[1.083s] 
+[1.084s]     catkinConfig.cmake
+[1.084s]     catkin-config.cmake
+[1.084s] 
+[1.084s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.084s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.084s]   provides a separate development package or SDK, be sure it has been
+[1.084s]   installed.
+[1.085s] 
+[1.085s] [0m
+[1.086s] -- Configuring incomplete, errors occurred!
+[1.089s] See also "/home/ubuntu/robotis_ws/build/open_manipulator_gazebo/CMakeFiles/CMakeOutput.log".
+[1.091s] Invoked command in '/home/ubuntu/robotis_ws/build/open_manipulator_gazebo' returned '1': /usr/bin/cmake /home/ubuntu/robotis_ws/src/open_manipulator_simulations/open_manipulator_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotis_ws/install/open_manipulator_gazebo

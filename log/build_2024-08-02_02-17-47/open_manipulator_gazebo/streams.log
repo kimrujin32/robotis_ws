@@ -1,0 +1,21 @@
+[0.041s] Invoking command in '/home/ubuntu/robotis_ws/build/open_manipulator_gazebo': /usr/bin/cmake /home/ubuntu/robotis_ws/src/open_manipulator_simulations/open_manipulator_gazebo -DCMAKE_CXX_FLAGS=-Wno-unused-variable -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotis_ws/install/open_manipulator_gazebo
+[0.092s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.092s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.093s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.093s]   CMake did not find one.
+[0.093s] 
+[0.093s]   Could not find a package configuration file provided by "catkin" with any
+[0.093s]   of the following names:
+[0.093s] 
+[0.093s]     catkinConfig.cmake
+[0.094s]     catkin-config.cmake
+[0.094s] 
+[0.094s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.094s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.094s]   provides a separate development package or SDK, be sure it has been
+[0.094s]   installed.
+[0.094s] 
+[0.094s] -- Configuring incomplete, errors occurred!
+[0.095s] See also "/home/ubuntu/robotis_ws/build/open_manipulator_gazebo/CMakeFiles/CMakeOutput.log".
+[0.097s] [0m
+[0.097s] Invoked command in '/home/ubuntu/robotis_ws/build/open_manipulator_gazebo' returned '1': /usr/bin/cmake /home/ubuntu/robotis_ws/src/open_manipulator_simulations/open_manipulator_gazebo -DCMAKE_CXX_FLAGS=-Wno-unused-variable -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotis_ws/install/open_manipulator_gazebo

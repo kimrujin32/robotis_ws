@@ -1,0 +1,23 @@
+[0.045s] Invoking command in '/home/ubuntu/robotis_ws/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/open_manipulator_msgs -- -j8 -l8
+[0.190s] [  1%] Built target open_manipulator_msgs__cpp
+[0.211s] [  1%] Built target ament_cmake_python_symlink_open_manipulator_msgs
+[0.227s] [ 12%] Built target open_manipulator_msgs__rosidl_generator_c
+[0.268s] [ 24%] Built target open_manipulator_msgs__rosidl_typesupport_cpp
+[0.282s] [ 35%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_cpp
+[0.286s] [ 47%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp
+[0.307s] [ 58%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_c
+[0.309s] [ 70%] Built target open_manipulator_msgs__rosidl_typesupport_c
+[0.311s] [ 82%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_c
+[0.342s] [ 82%] Built target open_manipulator_msgs
+[0.373s] [ 83%] Built target open_manipulator_msgs__py
+[0.409s] [ 93%] Built target open_manipulator_msgs__rosidl_generator_py
+[0.451s] [ 95%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_c__pyext
+[0.452s] [ 97%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.457s] [100%] Built target open_manipulator_msgs__rosidl_typesupport_c__pyext
+[0.605s] running egg_info
+[0.605s] writing open_manipulator_msgs.egg-info/PKG-INFO
+[0.606s] writing dependency_links to open_manipulator_msgs.egg-info/dependency_links.txt
+[0.606s] writing top-level names to open_manipulator_msgs.egg-info/top_level.txt
+[0.610s] reading manifest file 'open_manipulator_msgs.egg-info/SOURCES.txt'
+[0.611s] writing manifest file 'open_manipulator_msgs.egg-info/SOURCES.txt'
+[0.650s] [100%] Built target ament_cmake_python_build_open_manipulator_msgs_egg

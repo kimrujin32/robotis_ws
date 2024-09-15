@@ -1,0 +1,21 @@
+[0.053s] Invoking command in '/home/ubuntu/robotis_ws/build/dynamixel_workbench_msgs': /usr/bin/cmake /home/ubuntu/robotis_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotis_ws/install/dynamixel_workbench_msgs
+[0.132s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.133s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.133s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.133s]   CMake did not find one.
+[0.133s] 
+[0.133s]   Could not find a package configuration file provided by "catkin" with any
+[0.133s]   of the following names:
+[0.133s] 
+[0.133s]     catkinConfig.cmake
+[0.133s]     catkin-config.cmake
+[0.133s] 
+[0.134s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.134s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.134s]   provides a separate development package or SDK, be sure it has been
+[0.134s]   installed.
+[0.134s] 
+[0.134s] [0m
+[0.135s] -- Configuring incomplete, errors occurred!
+[0.135s] See also "/home/ubuntu/robotis_ws/build/dynamixel_workbench_msgs/CMakeFiles/CMakeOutput.log".
+[0.137s] Invoked command in '/home/ubuntu/robotis_ws/build/dynamixel_workbench_msgs' returned '1': /usr/bin/cmake /home/ubuntu/robotis_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotis_ws/install/dynamixel_workbench_msgs

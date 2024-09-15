@@ -1,0 +1,19 @@
+[0.864s] Invoking command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_teleop': CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs:/home/ubuntu/robotis_ws/install/open_manipulator:/home/ubuntu/robotis_ws/install/open_manipulator_x_controller:/home/ubuntu/robotis_ws/install/open_manipulator_x_libs:/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/open_manipulator_x_description:/home/ubuntu/robotis_ws/install/dynamixel_workbench:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples:/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robotis_ws/build/open_manipulator_x_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/robotis_ws/build/open_manipulator_x_teleop/build --no-deps symlink_data
+[1.186s] running develop
+[1.186s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.186s]   warnings.warn(
+[1.393s] running egg_info
+[1.393s] writing open_manipulator_x_teleop.egg-info/PKG-INFO
+[1.394s] writing dependency_links to open_manipulator_x_teleop.egg-info/dependency_links.txt
+[1.394s] writing entry points to open_manipulator_x_teleop.egg-info/entry_points.txt
+[1.394s] writing requirements to open_manipulator_x_teleop.egg-info/requires.txt
+[1.394s] writing top-level names to open_manipulator_x_teleop.egg-info/top_level.txt
+[1.396s] reading manifest file 'open_manipulator_x_teleop.egg-info/SOURCES.txt'
+[1.397s] writing manifest file 'open_manipulator_x_teleop.egg-info/SOURCES.txt'
+[1.399s] running build_ext
+[1.399s] Creating /home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/lib/python3.10/site-packages/open-manipulator-x-teleop.egg-link (link to .)
+[1.400s] Installing teleop_keyboard script to /home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/lib/open_manipulator_x_teleop
+[1.401s] 
+[1.401s] Installed /home/ubuntu/robotis_ws/build/open_manipulator_x_teleop
+[1.401s] running symlink_data
+[1.434s] Invoked command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_teleop' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs:/home/ubuntu/robotis_ws/install/open_manipulator:/home/ubuntu/robotis_ws/install/open_manipulator_x_controller:/home/ubuntu/robotis_ws/install/open_manipulator_x_libs:/home/ubuntu/robotis_ws/install/robotis_manipulator:/home/ubuntu/robotis_ws/install/open_manipulator_x_description:/home/ubuntu/robotis_ws/install/dynamixel_workbench:/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk_examples:/home/ubuntu/robotis_ws/install/dynamixel_sdk_custom_interfaces:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/home/ubuntu/robotis_ws/install/cmake_modules LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robotis_ws/build/open_manipulator_x_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/robotis_ws/build/open_manipulator_x_teleop/build --no-deps symlink_data

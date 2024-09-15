@@ -1,0 +1,4 @@
+[0.034s] Invoking command in '/home/ubuntu/robotis_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/robotis_ws/src/DynamixelSDK/dynamixel_sdk -DCMAKE_CXX_FLAGS=-w --symlink-build -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotis_ws/install/dynamixel_sdk
+[0.049s] [0mCMake Error: Unknown argument --symlink-build[0m
+[0.050s] [0mCMake Error: Run 'cmake --help' for all supported options.[0m
+[0.059s] Invoked command in '/home/ubuntu/robotis_ws/build/dynamixel_sdk' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/robotis_ws/src/DynamixelSDK/dynamixel_sdk -DCMAKE_CXX_FLAGS=-w --symlink-build -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotis_ws/install/dynamixel_sdk

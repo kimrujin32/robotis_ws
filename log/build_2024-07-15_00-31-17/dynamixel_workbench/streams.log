@@ -1,0 +1,41 @@
+[0.144s] Invoking command in '/home/ubuntu/robotis_ws/build/dynamixel_workbench': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/robotis_ws/src/dynamixel-workbench/dynamixel_workbench -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotis_ws/install/dynamixel_workbench
+[0.605s] -- The C compiler identification is GNU 11.4.0
+[0.914s] -- The CXX compiler identification is GNU 11.4.0
+[0.951s] -- Detecting C compiler ABI info
+[1.261s] -- Detecting C compiler ABI info - done
+[1.285s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.286s] -- Detecting C compile features
+[1.286s] -- Detecting C compile features - done
+[1.293s] -- Detecting CXX compiler ABI info
+[1.679s] -- Detecting CXX compiler ABI info - done
+[1.711s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.712s] -- Detecting CXX compile features
+[1.721s] -- Detecting CXX compile features - done
+[1.751s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.582s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.904s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.381s] -- Configuring done
+[3.390s] -- Generating done
+[3.410s] -- Build files have been written to: /home/ubuntu/robotis_ws/build/dynamixel_workbench
+[3.442s] Invoked command in '/home/ubuntu/robotis_ws/build/dynamixel_workbench' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/robotis_ws/src/dynamixel-workbench/dynamixel_workbench -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotis_ws/install/dynamixel_workbench
+[3.442s] Invoking command in '/home/ubuntu/robotis_ws/build/dynamixel_workbench': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/dynamixel_workbench -- -j8 -l8
+[3.641s] Invoked command in '/home/ubuntu/robotis_ws/build/dynamixel_workbench' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/dynamixel_workbench -- -j8 -l8
+[3.818s] Invoking command in '/home/ubuntu/robotis_ws/build/dynamixel_workbench': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/dynamixel_workbench
+[3.836s] -- Install configuration: ""
+[3.837s] -- Execute custom install script
+[3.838s] -- Symlinking: /home/ubuntu/robotis_ws/install/dynamixel_workbench/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench
+[3.899s] -- Symlinking: /home/ubuntu/robotis_ws/install/dynamixel_workbench/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench
+[3.951s] -- Symlinking: /home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/environment/ament_prefix_path.sh
+[4.000s] -- Symlinking: /home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/environment/ament_prefix_path.dsv
+[4.058s] -- Symlinking: /home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/environment/path.sh
+[4.115s] -- Symlinking: /home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/environment/path.dsv
+[4.163s] -- Symlinking: /home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/local_setup.bash
+[4.213s] -- Symlinking: /home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/local_setup.sh
+[4.268s] -- Symlinking: /home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/local_setup.zsh
+[4.326s] -- Symlinking: /home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/local_setup.dsv
+[4.377s] -- Symlinking: /home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.dsv
+[4.419s] -- Symlinking: /home/ubuntu/robotis_ws/install/dynamixel_workbench/share/ament_index/resource_index/packages/dynamixel_workbench
+[4.480s] -- Symlinking: /home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/cmake/dynamixel_workbenchConfig.cmake
+[4.524s] -- Symlinking: /home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/cmake/dynamixel_workbenchConfig-version.cmake
+[4.579s] -- Symlinking: /home/ubuntu/robotis_ws/install/dynamixel_workbench/share/dynamixel_workbench/package.xml
+[4.617s] Invoked command in '/home/ubuntu/robotis_ws/build/dynamixel_workbench' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox:/home/ubuntu/robotis_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/dynamixel_workbench_toolbox/lib:/home/ubuntu/robotis_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/dynamixel_workbench

@@ -1,0 +1,19 @@
+[0.757s] Invoking command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_teleop': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robotis_ws/build/open_manipulator_x_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/lib/python3.10/site-packages:/home/ubuntu/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/robotis_ws/build/open_manipulator_x_teleop/build --no-deps symlink_data
+[1.081s] running develop
+[1.081s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.082s]   warnings.warn(
+[1.286s] running egg_info
+[1.286s] writing open_manipulator_x_teleop.egg-info/PKG-INFO
+[1.286s] writing dependency_links to open_manipulator_x_teleop.egg-info/dependency_links.txt
+[1.286s] writing entry points to open_manipulator_x_teleop.egg-info/entry_points.txt
+[1.287s] writing requirements to open_manipulator_x_teleop.egg-info/requires.txt
+[1.287s] writing top-level names to open_manipulator_x_teleop.egg-info/top_level.txt
+[1.289s] reading manifest file 'open_manipulator_x_teleop.egg-info/SOURCES.txt'
+[1.290s] writing manifest file 'open_manipulator_x_teleop.egg-info/SOURCES.txt'
+[1.291s] running build_ext
+[1.291s] Creating /home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/lib/python3.10/site-packages/open-manipulator-x-teleop.egg-link (link to .)
+[1.292s] Installing teleop_keyboard script to /home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/lib/open_manipulator_x_teleop
+[1.293s] 
+[1.293s] Installed /home/ubuntu/robotis_ws/build/open_manipulator_x_teleop
+[1.293s] running symlink_data
+[1.328s] Invoked command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_teleop' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs LD_LIBRARY_PATH=/home/ubuntu/robotis_ws/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/robotis_ws/build/open_manipulator_x_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/robotis_ws/install/open_manipulator_x_teleop/lib/python3.10/site-packages:/home/ubuntu/robotis_ws/install/open_manipulator_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ubuntu/robotis_ws/build/open_manipulator_x_teleop/build --no-deps symlink_data

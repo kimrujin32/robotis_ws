@@ -1,0 +1,78 @@
+[0.016s] Invoking command in '/home/ubuntu/robotis_ws/build/robotis_manipulator': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble /usr/bin/cmake /home/ubuntu/robotis_ws/src/robotis_manipulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotis_ws/install/robotis_manipulator
+[0.139s] -- The C compiler identification is GNU 11.4.0
+[0.230s] -- The CXX compiler identification is GNU 11.4.0
+[0.239s] -- Detecting C compiler ABI info
+[0.335s] -- Detecting C compiler ABI info - done
+[0.353s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.354s] -- Detecting C compile features
+[0.354s] -- Detecting C compile features - done
+[0.360s] -- Detecting CXX compiler ABI info
+[0.480s] -- Detecting CXX compiler ABI info - done
+[0.491s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.491s] -- Detecting CXX compile features
+[0.492s] -- Detecting CXX compile features - done
+[0.510s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.757s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.848s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.887s] -- Found cmake_modules: 0.4.1 (/home/ubuntu/robotis_ws/install/cmake_modules/share/cmake_modules/cmake)
+[0.892s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.964s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.974s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.994s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.025s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.068s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.239s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.245s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.402s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.428s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.472s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.497s] -- Looking for pthread.h
+[1.643s] -- Looking for pthread.h - found
+[1.644s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.789s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.791s] -- Found Threads: TRUE  
+[2.631s] -- Configuring done
+[2.653s] -- Generating done
+[2.657s] -- Build files have been written to: /home/ubuntu/robotis_ws/build/robotis_manipulator
+[2.707s] Invoked command in '/home/ubuntu/robotis_ws/build/robotis_manipulator' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble /usr/bin/cmake /home/ubuntu/robotis_ws/src/robotis_manipulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotis_ws/install/robotis_manipulator
+[2.708s] Invoking command in '/home/ubuntu/robotis_ws/build/robotis_manipulator': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/robotis_manipulator -- -j8 -l8
+[2.970s] [ 14%] [32mBuilding CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_log.cpp.o[0m
+[2.979s] [ 28%] [32mBuilding CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator.cpp.o[0m
+[2.991s] [ 42%] [32mBuilding CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_common.cpp.o[0m
+[2.997s] [ 57%] [32mBuilding CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_trajectory_generator.cpp.o[0m
+[3.012s] [ 71%] [32mBuilding CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_math.cpp.o[0m
+[3.015s] [ 85%] [32mBuilding CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_manager.cpp.o[0m
+[19.220s] [100%] [32m[1mLinking CXX shared library librobotis_manipulator.so[0m
+[19.745s] [100%] Built target robotis_manipulator
+[19.761s] Invoked command in '/home/ubuntu/robotis_ws/build/robotis_manipulator' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/robotis_ws/build/robotis_manipulator -- -j8 -l8
+[19.817s] Invoking command in '/home/ubuntu/robotis_ws/build/robotis_manipulator': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/robotis_manipulator
+[19.827s] -- Install configuration: ""
+[19.828s] -- Execute custom install script
+[19.828s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/lib/librobotis_manipulator.so
+[19.842s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator.h
+[19.855s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_common.h
+[19.867s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_log.h
+[19.879s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_manager.h
+[19.891s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_math.h
+[19.904s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_trajectory_generator.h
+[19.917s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/environment/library_path.sh
+[19.929s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/environment/library_path.dsv
+[19.943s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/ament_index/resource_index/package_run_dependencies/robotis_manipulator
+[19.956s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/ament_index/resource_index/parent_prefix_path/robotis_manipulator
+[19.968s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/environment/ament_prefix_path.sh
+[19.980s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/environment/ament_prefix_path.dsv
+[19.993s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/environment/path.sh
+[20.005s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/environment/path.dsv
+[20.018s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/local_setup.bash
+[20.031s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/local_setup.sh
+[20.043s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/local_setup.zsh
+[20.056s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/local_setup.dsv
+[20.068s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/package.dsv
+[20.081s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/ament_index/resource_index/packages/robotis_manipulator
+[20.092s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.104s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.116s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_libraries-extras.cmake
+[20.128s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/robotis_manipulatorConfig.cmake
+[20.141s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/cmake/robotis_manipulatorConfig-version.cmake
+[20.153s] -- Symlinking: /home/ubuntu/robotis_ws/install/robotis_manipulator/share/robotis_manipulator/package.xml
+[20.168s] Invoked command in '/home/ubuntu/robotis_ws/build/robotis_manipulator' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/robotis_ws/install/cmake_modules:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/robotis_ws/build/robotis_manipulator

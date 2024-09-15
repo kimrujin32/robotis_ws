@@ -1,0 +1,4 @@
+[0.032s] Invoking command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_description -DCMAKE_CXX_FLAGS=-w --symlink-build -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotis_ws/install/open_manipulator_x_description
+[0.043s] [0mCMake Error: Unknown argument --symlink-build[0m
+[0.043s] [0mCMake Error: Run 'cmake --help' for all supported options.[0m
+[0.049s] Invoked command in '/home/ubuntu/robotis_ws/build/open_manipulator_x_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/robotis_ws/src/open_manipulator/open_manipulator_x_description -DCMAKE_CXX_FLAGS=-w --symlink-build -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robotis_ws/install/open_manipulator_x_description
